@@ -25,7 +25,7 @@ txt_input = StringVar(value='Start Calculating...')
 
 
 #========================Screen=====================================
-Display = Entry(root,font=('arial',30,'bold'), fg='white', bg= 'green', justify ='right', bd=50, textvariable=txt_input)
+Display = Entry(root,font=('arial',30,'bold'), fg='white', bg= 'blue', justify ='right', bd=50, textvariable=txt_input)
 
 Display.grid(columnspan=4)
 
